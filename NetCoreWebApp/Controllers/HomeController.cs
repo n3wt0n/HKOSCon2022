@@ -27,7 +27,7 @@ namespace NetCoreWebApp.Controllers
             return View();
         }
         
-        private void DoSomething(HttpContext ctx, string employeeName)
+        public void DoSomething(HttpContext ctx, string employeeName)
         {
             //XML Injection vulnerability
              using (XmlWriter writer = XmlWriter.Create("employees.xml"))
