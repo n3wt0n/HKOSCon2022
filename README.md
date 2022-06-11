@@ -1,14 +1,13 @@
-# HKOSCon 2020 - Demos
-Repo for my GH Actions sessions at the Hong Kong Opensource Conference 2020
+# Secure your Open Source projects for free
+## Hong Kong Open Source Conference 2022
 
-Slides: https://www.slideshare.net/n3wt0n/github-actions-your-free-ci-engine-and-much-more
+Repo for my sessions at the Hong Kong Open Source Conference 2022
 
-Presentation Video: https://www.youtube.com/watch?v=wVNbMri_7gw
+### Abstract
+xxx
 
-### YouTube
+### Support Material
 
-The Actions examples in here are also used and shown in my [Video about GitHub Actions for Automation](https://youtu.be/msCWg2F4sck)
+__Slides__: TBD
 
-[![GitHub Actions Showcase](https://img.youtube.com/vi/msCWg2F4sck/0.jpg)](https://www.youtube.com/watch?v=msCWg2F4sck)
-
-Take also a look at my [YouTube video about GitHub Actions for a .Net Framework application](https://youtu.be/g8tdrB3kbDU)
+__Presentation Video__: TBD
