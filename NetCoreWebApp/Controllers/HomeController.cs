@@ -1,11 +1,15 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 using NetCoreWebApp.Models;
+using System.Threading.Tasks;
+using System.Xml;
 
 namespace NetCoreWebApp.Controllers
 {
@@ -19,6 +23,11 @@ namespace NetCoreWebApp.Controllers
         }
 
         public IActionResult Index()
+        {           
+            return View();
+        }
+        
+        private void DoSomething(HttpContext ctx, string employeeName)
         {
             //XML Injection vulnerability
              using (XmlWriter writer = XmlWriter.Create("employees.xml"))
@@ -39,8 +48,6 @@ namespace NetCoreWebApp.Controllers
             {
                 ctx.Response.Redirect("login");
             }
-            
-            return View();
         }
 
         public IActionResult Privacy()
