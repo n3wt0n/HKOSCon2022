@@ -10,6 +10,6 @@ In this session we will see how we can use the tools that GitHub and Datree prov
 
 ### Support Material
 
-__Slides__: TBD
+__Slides__: https://www.slideshare.net/n3wt0n/secure-your-open-source-projects-for-free
 
-__Presentation Video__: TBD
+__Presentation Video__: https://youtu.be/QPKRd3jNnys
